@@ -1,0 +1,32 @@
+.class1{
+    background: url(Img/Rectangle_35.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}   
+
+.c_footer{
+    background-color: #F4F1ED;
+}
+
+.sec_form{
+    background: url(Img/600693-PMYQNV-922_1.jpg);
+    background-size: 100%;
+}
+
+.c_center{
+  text-align: center;
+}
+
+.img_center{
+  display: block; /* Чтобы убрать возможные отступы сверху и снизу от инлайн-элемента */
+  margin: 0 auto; /* Устанавливает автоматичесные отступы слева и справа, чтобы изображение было по центру горизонтально */
+}
+
+.c_icon_r{
+  float: right; /* Заставляет изображение прижаться к правому краю */
+  margin-left: 20px;
+}
+
+.c_icon_l{
+  float: left; /* Заставляет изображение прижаться к левому краю */
+}
