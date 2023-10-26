@@ -1,0 +1,92 @@
+body{
+  color: var(--accent_colour);
+  background-color: var(--background_colour);
+  background-size: 100%;
+  background-repeat: no-repeat;
+} 
+
+a{
+  text-decoration: none;
+  color: var(--accent_colour);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-sect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrap{
+  width: 243px;
+  height: 155px;
+}
+
+.c_center{
+  text-align: center;
+}
+
+.cosmetics_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cosmetics_1{
+  display: flex;
+  flex-direction: column;
+}
+
+.sec_form{
+  background-size: 100%;
+  background-color: var(--section_form_background_colour);
+}
+
+.history_container{
+  padding: 0 0;
+  margin: 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 320px;
+  height: 346px;
+  background-image: url("../Img/history.jpg");
+  text-align: center;
+  line-height: 27.5px;
+}
+
+.history_text{
+  padding: 55px 39px 135px 39px;
+  width: 250px;
+  height:156px;
+  margin: 0 auto;
+}
+
+.img_center{
+  display: block; /* Чтобы убрать возможные отступы сверху и снизу от инлайн-элемента */
+  margin: 0 auto; /* Устанавливает автоматичесные отступы слева и справа, чтобы изображение было по центру горизонтально */
+}
+
+.c_footer{
+    background-color: #F4F1ED;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

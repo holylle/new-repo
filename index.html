@@ -4,30 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/vars.css">
 </head>
 
-<body class="class1">
-    <header>
+<body>
+    <header class="header">
         <select class="c_icon_l">    
             <option>Каталог</option>
             <option>О нас</option>
             <option>Контакты</option>
         </select>   
-        <button class="img_center">MAROON</button>
-        <a class="c_icon_r" href=""><img src="Img/Vector.png" alt="Не удалось загрузить изображение"></a>
-        <a class="c_icon_r" href=""><img src="Img/Vector2.png" alt="Не удалось загрузить изображение"></a>
+        <a href="!#" class="logo">
+            <img src="img/MAROON.svg" alt="">
+        </a>
+        <div class="right_icons">
+            <a class="c_icon_r" href=""><img src="Img/Vector.png" alt="Не удалось загрузить изображение"></a>
+            <a class="c_icon_r" href=""><img src="Img/Vector2.png" alt="Не удалось загрузить изображение"></a>
+        </div>
+
     </header>
 
     <main>
-      <section id="part2"> 
+      <section id="part2" class="first-sect"> 
+        <div class="wrap">
             <h1 class="c_center">MAROON</h1>
             <p class="c_center">Натуральная косметика для бережного ухода за кожей</p>
             <a href="#part1" class="c_center">Подробнее</a>
-            <ul>
-                <li><a href="">Уход для лица</a></li>
-                <li><a href="">Уход для тела</a></li>
-            </ul>
+        </div>
+        <div class="cosmetics_container">
+                <div class="cosmetics_1">
+                    <a href=""><img src="Img/cosmetics_1.png" alt=""></a>
+                    <a href="">Уход для лица</a>
+                </div>
+                <div class="cosmetics_1">
+                    <a href=""><img src="Img/cosmetics_2.png" alt=""></a>
+                    <a href="">Уход для тела</a>
+                </div>
+        </div>
         </section>
 
         
@@ -45,7 +60,7 @@
         
 
         
-        <section>
+        <section class="sec_form">
             <h2 class="c_center">Индивидуальный уход</h2>
             <p class="c_center">
                 Заполните анкету, и мы
@@ -61,13 +76,17 @@
         
 
         
-        <section class="sec_form">
-            <p class="c_center">
-                "Мы стремимся сделать уход за кожей доступным и приятным 
-                ритуалом для всех, кто хочет заботиться о себе и своем теле"
-            </p>
-            <a href="" class="c_center">Наша история</a>
-        </section>
+        <div class="history_container">
+            <div class="history_text">
+                <p class="c_center history_font">
+                    "Мы стремимся сделать уход за кожей доступным и приятным 
+                    ритуалом для всех, кто хочет заботиться о себе и своем теле"
+                </p>
+            </div>
+            <div class="history_link">
+                <a href="" class="c_center">Наша история</a>
+            </div>
+        </div>
         
         <section>
             <h2 class="c_center">Присоединяйтесь к нам</h2>
@@ -82,19 +101,12 @@
 
         <section>
             <h2>Контакты</h2>
-            <p>
-                Адрес
-                Санкт-Петербург, ул.Большая Конюшенная, 19
-            </p>
-            <p>
-                Телефон 
-                +7 (923) 888-90-60
-            </p>
-            <p>
-                E-mail
-                info@maroon.ru
-            </p>
-                   
+            <p class="contacts_font">Адрес</p>
+            <p>Санкт-Петербург, ул.Большая Конюшенная, 19</p>
+            <p class="contacts_font">Телефон</p>
+            <p>+7 (923) 888-90-60</p>
+            <p class="contacts_font">E-mail</p>
+            <p>info@maroon.ru</p>     
             <a href=""><img src="Img/facebook.png" alt="Не удалось загрузить изображение"></a>
             <a href=""><img src="Img/insta.png" alt="Не удалось загрузить изображение"></a>
             <a href=""><img src="Img/twitter.png" alt="Не удалось загрузить изображение"></a>
@@ -113,8 +125,8 @@
         <a href=""><img src="Img/insta.png" alt="Не удалось загрузить изображение"></a>
         <a href=""><img src="Img/twitter.png" alt="Не удалось загрузить изображение"></a>
     
-        <p>Maroon 2020 Все права защищены</p>
-        <a href="">Политика конфиденциальности</a> <!--Ссылка на скачивание файла?-->
+        <p class="footer_2_font">Maroon 2020 Все права защищены</p>
+        <a href="" class="footer_2_font">Политика конфиденциальности</a> 
     </footer>
 </body>
 </html>
