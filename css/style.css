@@ -1,92 +1,127 @@
 body{
-  color: var(--accent_colour);
   background-color: var(--background_colour);
-  background-size: 100%;
-  background-repeat: no-repeat;
-} 
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
 a{
   text-decoration: none;
   color: var(--accent_colour);
 }
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.a_frame{
+  padding: 12px 30px;
+  border: solid 1px var(--border_link);
+  border-radius: 2px;
+}  
+
+button{
+  border: 0;
+  background-color: transparent;
 }
 
-.first-sect{
+.navigation{
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.start_page{
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo_start{
+  margin: 0 38px 35px 39px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column  ;
 }
 
-.wrap{
-  width: 243px;
-  height: 155px;
+.cosmetics_start{
+  display: flex;
+  justify-content: space-between;
 }
-
-.c_center{
-  text-align: center;
-}
-
-.cosmetics_container{
+/*Возможно сделать коллону для косм1 и косм2*/
+.cosmetics_link{
   display: flex;
   justify-content: space-between;
 }
 
-.cosmetics_1{
-  display: flex;
-  flex-direction: column;
+.bestseller{
+ text-align: center;
+ margin-bottom: 85px;
 }
 
-.sec_form{
-  background-size: 100%;
-  background-color: var(--section_form_background_colour);
+.bestseller_p{
+  margin: 20px 50px;
 }
 
-.history_container{
-  padding: 0 0;
-  margin: 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.slider{
+  margin: 50px 40px;
+}
+
+.form_block{
+  text-align: center;
+  background-color: var(--block_colour);
+}
+
+.text_form_block{
+  margin:0 30px ;
+}
+
+.form_btn{
+  border: solid var(--border_link) 1px;
+  border-radius: 3px;
+  padding: 13px 28px;
+}
+
+.history{
   width: 320px;
   height: 346px;
-  background-image: url("../Img/history.jpg");
-  text-align: center;
-  line-height: 27.5px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/history.jpg);
 }
 
 .history_text{
-  padding: 55px 39px 135px 39px;
-  width: 250px;
-  height:156px;
-  margin: 0 auto;
+  text-align: center;
+  margin: 0 39px;
+
 }
 
-.img_center{
-  display: block; /* Чтобы убрать возможные отступы сверху и снизу от инлайн-элемента */
-  margin: 0 auto; /* Устанавливает автоматичесные отступы слева и справа, чтобы изображение было по центру горизонтально */
+.follow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.c_footer{
-    background-color: #F4F1ED;
+.text_follow{
+  text-align: center;
 }
 
+.img_follow{
+  margin:50px 0 ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contacts{
+  background-color: var(--block_colour);
+  padding: 60px 30px;
+  text-align: left;
+  
+}
