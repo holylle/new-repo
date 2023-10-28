@@ -6,55 +6,69 @@ html{
     font-size: 62.5%;
   }
 
-body{
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-}
-.contacts_font{
-    font-size: 1.6rem;
-}
-.contacts_font, a, .cosmetics_font {
-    font-weight: 500;
-}
-.contacts_font + p{
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.6rem;
-}
-a{
-    font-size: 1.4rem;
-}
-.slider_font{
-    font-size: 1.3rem;
-}
-.cosmetics_font, .footer_2_font{
-    font-size: 1.2rem;
-}
-a.footer_2_font
-{
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-.footer_2_font{
-    color: var(--footer_colour_text);
-}
-p{
-    font-size: 1.6rem;
-}
-h1, h2, .history_font, .name_cosmetics_font{
-    font-family:'Raleway', sans-serif;
-    font-weight: 500;
-}
-h1{
+  body{
+    color: var(--accent_colour);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1{
+    font-family:  'Raleway', sans-serif;
     font-size: 4.2rem;
-}
-h2{
-    font-size: 2.8rem;
-}
-.history_font{
-    font-size: 2.2rem;
-}
-.name_cosmetics_font{
-    font-size: 1.6rem;
-}
+    font-weight: 500;
+    margin: 0;
+  }
 
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 125%;
+  }
+
+  p{
+    font-size: 1.6rem;
+    font-weight: 400; 
+    line-height: 140%;
+  }
+
+  a{
+    font-size: 1.4rem;
+    font-weight: 500; 
+  }
+
+  header a{
+    font-size: 1.2rem;
+    font-weight: 500; 
+  }
+
+  .history p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 125%;
+  }
+
+  .contacts_font{
+    font-size: 1.6rem;
+    font-weight: 500; 
+  }
+
+  .contacts_font + p{
+    font-size: 1.6rem;
+    font-weight: 400; 
+    line-height: 145%
+  }
+
+  footer a{
+    font-size: 1.4rem;
+    font-weight: 400; 
+  }
+  footer p{
+    font-size: 1.2rem;
+    font-weight: 400; 
+    color: var(--footer_colour_text);
+  }
+
+  hr{
+    color: var(--footer_colour_text);
+  }

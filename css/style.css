@@ -69,9 +69,13 @@ button{
   margin: 50px 40px;
 }
 
+.form_section{
+  padding-bottom: 100px;
+}
 .form_block{
   text-align: center;
   background-color: var(--block_colour);
+  padding-bottom: 200px;
 }
 
 .text_form_block{
@@ -83,6 +87,7 @@ button{
   border-radius: 3px;
   padding: 13px 28px;
 }
+
 
 .history{
   width: 320px;
