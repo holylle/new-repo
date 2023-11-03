@@ -126,7 +126,14 @@ button{
 
 .contacts{
   background-color: var(--block_colour);
-  padding: 60px 30px;
   text-align: left;
-  
+  margin: auto;
+}
+
+
+
+
+
+footer{
+  background-color: var(--block_colour);
 }
