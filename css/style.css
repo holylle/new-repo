@@ -70,12 +70,27 @@ button{
 }
 
 .form_section{
+  margin-bottom: 180px;
+  position: relative;
   padding-bottom: 100px;
 }
+
 .form_block{
+  position: relative;
+  margin: 0 7px;
+  /*padding: 60px 15px 200px;*/
+  padding-top: 60px;
+  padding-bottom: 110px;
   text-align: center;
   background-color: var(--block_colour);
-  padding-bottom: 200px;
+}
+
+.img_form{
+  position: absolute;
+  top: 420px;
+  left: 27px;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .text_form_block{
@@ -102,13 +117,13 @@ button{
 
 .history_text{
   text-align: center;
-  margin: 0 39px;
+  margin: 0 36px;
 
 }
 
 .follow{
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: center;
 }
 
@@ -125,15 +140,52 @@ button{
 }
 
 .contacts{
-  background-color: var(--block_colour);
-  text-align: left;
-  margin: auto;
+margin-bottom: 80px;
 }
 
+.main_contacts{
+  margin-left: 7px;
+  margin-right: 7px;
+  padding: 50px 30px;
+  background-color: var(--block_colour);
+  text-align: left;
+}
 
+.icons{
+  width: 111px;
+  display: flex;
+  justify-content: space-between;
+}
 
-
+.img_map{
+  margin: auto;
+  margin-left: 5px;
+}
 
 footer{
   background-color: var(--block_colour);
+}
+
+footer button{
+  padding: 0;
+}
+.footer_links{
+  padding: 50px 15px ;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+hr{
+margin: 0;
+}
+
+.footer_menu{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_polit{
+  padding: 23px 82px 18px 15px;
+  text-align: left;
 }
