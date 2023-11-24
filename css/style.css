@@ -17,6 +17,7 @@ a{
   padding: 12px 30px;
   border: solid 1px var(--border_link);
   border-radius: 2px;
+  box-shadow: 0 0 5px 2px rgb(180, 176, 176);
 }  
 
 button{
@@ -101,6 +102,7 @@ button{
   border: solid var(--border_link) 1px;
   border-radius: 3px;
   padding: 13px 28px;
+  box-shadow: 0 0 5px rgb(180, 176, 176);
 }
 
 
@@ -182,10 +184,105 @@ margin: 0;
 .footer_menu{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .footer_polit{
-  padding: 23px 82px 18px 15px;
+  padding: 20px 82px 15px 15px;
   text-align: left;
+}
+.grid__main{
+  background-color: white;
+}
+.grid_charts{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+  "sidebar charts";
+}
+.charts{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-area: charts;
+}
+.chart{
+  width: 100%;
+}
+.large_block{
+  grid-column: 1/-1;
+}
+.medium_block{
+  grid-column: span 3;
+}
+.small_block{
+  grid-column: span 2;
+}
+.sidebar{
+  grid-area: sidebar;
+  display: grid;
+  align-items: center;
+}
+.sidebar a{
+  color: black;
+}
+.footer{
+  padding: 0;
+}
+
+.grid__main{
+  display: grid;
+}
+.gallery{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.gallery h2{
+  font-size: 40px;
+  color: black;
+}
+.gallery__grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 5px;
+}
+.item{
+  display: grid;
+  grid-column: span 1;
+  max-width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s ease;
+  border-radius: 8px;
+  justify-items: center;
+  align-items: center;
+}
+.item img{
+  grid-column: -1/1;
+  grid-row-start: 1;
+}
+.item a{
+  grid-column: -1/1;
+  grid-row-start: 1;
+}
+.chart svg{
+  width: 100%;
+}
+.wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.item a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
