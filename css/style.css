@@ -171,8 +171,8 @@ footer{
 footer button{
   padding: 0;
 }
-.footer_links{
-  padding: 50px 130px 50px 15px;
+.footer_links{  
+  padding: 30px 130px 30px 15px;
   text-align: left;
 }
 
