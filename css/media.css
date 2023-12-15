@@ -23,7 +23,7 @@
         position: relative;
     }
 }
-@media (min-width: 1144px) {
+@media (min-width: 1366px) {
     .cosmetics_start{
         width: 100%;
     }
