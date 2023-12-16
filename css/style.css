@@ -245,13 +245,12 @@ margin: 0;
   border-top: 1px solid rgb(209, 209, 209);
 }
 .grid__main{
-  background-color: white;
+  background-color: var(--background_colour);
 }
 .grid_charts{
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-areas:
-  "sidebar charts";
+  grid-template-areas: "sidebar charts";
 } 
 .charts{
   display: grid;
@@ -277,7 +276,7 @@ margin: 0;
   align-items: center;
 }
 .sidebar a{
-  color: black;
+  color: var(--accent_colour);
 }
 .footer{
   padding: 0;
@@ -285,6 +284,8 @@ margin: 0;
 
 .grid__main{
   display: grid;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .gallery{
   display: flex;
@@ -294,7 +295,7 @@ margin: 0;
 }
 .gallery h2{
   font-size: 40px;
-  color: black;
+  color: var(--accent_colour);
 }
 .gallery__grid{
   display: grid;
@@ -305,7 +306,7 @@ margin: 0;
   display: grid;
   grid-column: span 1;
   max-width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: var(--accent_colour);
   transition: opacity 0.3s ease;
   border-radius: 8px;
   justify-items: center;
@@ -322,10 +323,15 @@ margin: 0;
 .chart svg{
   width: 100%;
 }
+.wrapper_grid {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 
+}
 .item a {
   text-decoration: none;
-  background-color: black;
+  background-color: var(--border_link);
   color: white;
   font-size: 18px;
   font-weight: bold;
