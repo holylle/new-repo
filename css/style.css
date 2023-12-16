@@ -10,17 +10,20 @@ body{
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .wrapper {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 0;
+  /*padding-left: 16px;
+  padding-right: 16px;*/
 }
 .container{
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 5%;
 }
 
 a{
@@ -30,6 +33,7 @@ a{
 
 .a_frame{
   padding: 12px 30px;
+  margin: 0 10%;
   border: solid 1px var(--border_link);
   border-radius: 2px;
   box-shadow: 0 0 5px 2px rgb(180, 176, 176);
@@ -61,13 +65,14 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column  ;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .cosmetics_start{
   display: flex;
-  justify-content: space-around;
-  width: 80%;
+  justify-content: space-between;
+  width: 90%;
   column-gap: 20px;
 }
 /*Возможно сделать коллону для косм1 и косм2*/
@@ -122,6 +127,7 @@ button{
 
 .text_form_block{
   margin:0 30px ;
+  
 }
 .text_form_block p:nth-of-type(1){
   display: none;
@@ -164,6 +170,7 @@ button{
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 20px;
 }
 
 .img_follow{
@@ -174,16 +181,24 @@ button{
   align-items: center;
 }
 
+.img_follow img {
+  max-width: 100%;
+  height: auto;
+  }ы
+
 .contacts{
 margin-bottom: 80px;
 }
 
 .main_contacts{
-  padding: 50px 30px;
+  padding: 30px 30px;
   background-color: var(--block_colour);
   text-align: left;
+  
 }
-
+.main_contacts p, .main_contacts h2, .text_form_block p, .text_form_block h2{
+  margin-bottom: 10px;
+}
 .icons{
   width: 111px;
   display: flex;
@@ -196,6 +211,7 @@ margin-bottom: 80px;
 
 footer{
   background-color: var(--block_colour);
+  margin: 0;
 }
 
 footer button{
@@ -204,6 +220,7 @@ footer button{
 .footer_links{  
   padding: 30px 130px 30px 15px;
   text-align: left;
+  gap: 20px;
 }
 
 hr{
@@ -303,13 +320,6 @@ margin: 0;
 }
 .chart svg{
   width: 100%;
-}
-.wrapper {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .item a {

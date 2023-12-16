@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vars.css">
+</head>
+<body>
+    <header class="header">
+        <button><img src="img/menu.svg" alt=""></button>
+        <button><img src="img/maroon_logo.svg" alt=""></button>
+        <div class="navigation">
+            <a href="#"><img src="img/user.svg" alt=""></a>
+            <a href="#"><img src="img/catalog.svg" alt=""></a>
+        </div>
+    </header>
+
+    <main>
+        <form action="//httpbin.org/post" method="POST" class="registration-form">
+            <fieldset>
+                <legend>Личная информация</legend>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+                <label for="dob">Дата рождения:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label>Пол:</label>
+                <label><input type="radio" name="gender" value="male"> Мужской</label>
+                <label><input type="radio" name="gender" value="female"> Женский</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Контактные данные</legend>
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+7 (123) 456-7890" required>
+
+                <label>Удобный интервал для связи:</label>
+                <select name="contact-interval">
+                    <option value="morning">Утро</option>
+                    <option value="day">День</option>
+                    <option value="evening">Вечер</option>
+                    <option value="night">Ночь</option>
+                </select>
+            </fieldset>
+
+            <div class="form-buttons">
+                <button type="submit">
+                    <span class="icon">&#128190;</span> Отправить
+                </button>
+                <button type="reset">
+                    <span class="icon">&#128259;</span> Сбросить
+                </button>
+            </div>
+        </form>
+    </main>
+
+    <footer >
+        <div class="footer_links">
+            <button><img src="img/maroon_logo.svg" alt=""></button>
+            <div class="footer_menu">
+                <div class="menu_column">
+                    <a href="#">Каталог</a>
+                    <a href="#">Магазины</a>
+                </div>
+                <div class="menu_column">
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                </div>
+            </div>  
+            <div class="icons">
+                <img src="img/facebook.svg" alt="">
+                <img src="img/inst.svg" alt="">
+                <img src="img/twitter.svg" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="footer_polit">
+            <p>Maroon 2020 &copy; Все права защищены</p>
+            <p>Политика конфиденциальности</p>
+        </div>
+    </footer>
+</body>
+</html>

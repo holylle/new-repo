@@ -6,6 +6,9 @@
         position: absolute;
         top: 20px;
     }
+    .cosmetics_start{
+        column-gap: 200px;
+      }
     .bestseller{
         grid-template-columns: 1fr 2fr;
         /* text-align: left; */
@@ -15,6 +18,9 @@
     .bestseller_p{
         margin: 0;
     }
+    .text_form_block{
+        text-align: left;
+    }
     .text_form_block p:nth-of-type(1){
         display: block;
     }
@@ -22,9 +28,17 @@
         flex-direction: row;
         position: relative;
     }
+
 }
 @media (min-width: 1366px) {
     .cosmetics_start{
         width: 100%;
     }
+
+}
+
+@media (max-width: 1365px) {
+    #5, #6 {
+    display: none;
+  }
 }
