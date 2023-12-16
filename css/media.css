@@ -14,7 +14,9 @@
         /* text-align: left; */
         /* position: relative; */
     }
-
+    .bestseller_div{
+        text-align: left;
+    }
     .bestseller_p{
         margin: 0;
     }
