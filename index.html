@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
+    <a href="#mainContent" class="skip-link"></a>
     <div class="wrapper">
         <header class="header">
             <button><img src="img/menu.svg" alt=""></button>
@@ -29,12 +30,13 @@
         </header>
     
         <main>
-            <section class="start_page">
+            <section class="start_page" id="mainContent">
                 <div class="logo_start">
                     <div class="big_text"><h1>MAROON</h1></div>
                     <p>Натуральная косметика для бережного ухода за кожей</p>
                     <a href="#" class="a_frame">Подробнее</a>
                 </div>
+                
                 <div class="cosmetics_start">
                     <div class="cosmetics_1">
                         <img src="img/cosmetics_1.jpg" alt="">
@@ -52,6 +54,7 @@
                     </div>
                 </div>
             </section>
+            
             <section class="bestseller">
                 <div class="bestseller_div">
                     <h2>Бестселлеры</h2> <!--Нужно делать по блокам и центрировать или только центр текст-->
@@ -88,8 +91,15 @@
                     <button class="form_btn">Заполнить анкету</button>
                 </div>
                 <img src="img/form.jpg" class="img_form" alt="">
-                
             </section>
+            <!-- <br>
+            <div class="content">
+                <div class="card flex-item-center">
+                <span class="loader"></span>
+                <div class="opaloader">
+                <img src="Img/follow_1.jpg" alt="картинка 11">
+                </div>
+            </div> -->
             <section class="history">
                 <div class="history_text">
                     <p>
@@ -99,6 +109,7 @@
                     </p>
                 </div>
                 <a href="#" class="a_frame">Наша история</a>
+                
             </section>
             <section class="follow container">
                 <div class="text_follow">
@@ -110,12 +121,12 @@
                     </div>
                 </div>
                 <div class="img_follow">
-                    <img src="img/follow_5.jpg" alt="" id="5">
-                    <img src="img/follow_6.jpg" alt="" id="6">
-                    <img src="img/follow_1.jpg" alt="">
-                    <img src="img/follow_2.jpg" alt="">
-                    <img src="img/follow_3.jpg" alt="">
-                    <img src="img/follow_4.jpg" alt="">
+                    <img src="img/follow_5.jpg" alt="" id="5" class="imgsize">
+                    <img src="img/follow_6.jpg" alt="" id="6" class="imgsize">
+                    <img src="img/follow_1.jpg" alt="" class="imgsize">
+                    <img src="img/follow_2.jpg" alt="" class="imgsize">
+                    <img src="img/follow_3.jpg" alt="" class="imgsize">
+                    <img src="img/follow_4.jpg" alt="" class="imgsize">
                 </div>
             </section>
             <section class="contacts container">
@@ -136,6 +147,8 @@
                 </div>
                 <img src="img/map.jpg" class="img_map" alt="">
             </section>
+            
+    
         </main>
     
         <footer >

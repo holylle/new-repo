@@ -1,3 +1,9 @@
+@media (min-width: 320px) {
+    .imgsize{
+        max-width: 145px;
+        max-height: 145px;
+    }
+}
 @media (min-width: 768px) {
     .start_page{
         position: relative;
@@ -74,7 +80,7 @@
         width: auto;
     }
 }
-@media (min-width: 1144px) {
+@media (min-width: 1366px) {
     .cosmetics_start{
         width: 100%;
     }
